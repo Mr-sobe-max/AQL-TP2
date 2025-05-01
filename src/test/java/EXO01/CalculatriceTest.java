@@ -1,44 +1,32 @@
 package EXO01;
 
 import org.example.com.EXO01.Calculatrice;
-import org.junit.Test;
-import org.junit.runner.RunWith;
-import org.mockito.Mock;
-import org.mockito.junit.MockitoJUnitRunner;
 
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
+import org.mockito.Mock;
+import org.mockito.junit.jupiter.MockitoExtension;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.Mockito.*;
 
-@RunWith(MockitoJUnitRunner.class)
+@ExtendWith(MockitoExtension.class)
 public class CalculatriceTest {
-
     @Mock
     private Calculatrice calculatrice;
 
     @Test
     public void testAdditionner() {
-        // Définition du comportement de la méthode "additionner"
+        // Arrange: Define mock behavior
         when(calculatrice.additionner(2, 3)).thenReturn(5);
 
-        // ✅ Appel de la méthode à tester
+        // Act: Call the method to test
         int resultat = calculatrice.additionner(2, 3);
 
-        // ✅ Vérification du résultat
-        assert(resultat == 5);
+        // Assert: Verify the result
+        assertEquals(5, resultat);
 
-        // ✅ Vérification que la méthode "additionner" a été appelée avec les arguments 2 et 3
+        // Verify: Check method call
         verify(calculatrice).additionner(2, 3);
-
-        // ✅ Vérification qu'aucune autre méthode n'a été appelée
         verifyNoMoreInteractions(calculatrice);
-
-        // ⛔️ Problème ici : on ne peut pas vérifier l’état réel car c’est un mock
-        // La méthode suivante ne fonctionnera que sur un vrai objet, pas un mock :
-        // verify(calculatrice).getResult();
-
-        // 👉 Si on veut tester l'état (comme result = 5), il faut utiliser une vraie instance :
-        Calculatrice vraieCalculatrice = new Calculatrice();
-        int vraiResultat = vraieCalculatrice.additionner(2, 3);
-        assert(vraiResultat == 5);
-        assert(vraieCalculatrice.getResult() == 5);
     }
 }

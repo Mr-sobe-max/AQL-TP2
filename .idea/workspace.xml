@@ -5,25 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed3d8db0-1e67-4cba-9500-bd04168d3dd7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/com/EXO01/Calculatrice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/com/EXO02/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/com/EXO02/Utilisateur.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/com/EXO02/UtilisateurApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/com/EXO03/ServiceException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/com/EXO03/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/com/EXO03/Utilisateur.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/com/EXO03/UtilisateurApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/com/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/EXO01/CalculatriceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/EXO02/UserServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/EXO03/UserServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/com/EXO2/ServiceException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/com/EXO2/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/com/EXO2/Utilisateur.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/com/EXO2/UtilisateurApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/com/EXO4/Banque.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/com/EXO4/BanqueImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/com/EXO4/De.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/com/EXO4/DebitImpossibleException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/com/EXO4/Jeu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/com/EXO4/JeuFermeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/com/EXO4/Joueur.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/EXO03/UserServiceScenariosTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/EXO04/JeuAvecBanqueReelleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/EXO04/JeuTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/com/EXO02/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/com/EXO02/Utilisateur.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/com/EXO02/UtilisateurApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/com/EXO3/UtilisateurApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/com/EXO03/ServiceException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/com/EXO3/ServiceException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/com/EXO03/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/com/EXO3/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/com/EXO03/Utilisateur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/com/EXO3/Utilisateur.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/com/EXO03/UtilisateurApi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/EXO01/CalculatriceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/EXO01/CalculatriceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/EXO02/UserServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/EXO02/UserServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/EXO03/UserServiceTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,9 +48,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2voUgkOrf3D7dbVle7BqVcJdv2G" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -56,7 +63,11 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "JUnit.CalculatriceTest.executor": "Run",
+    "JUnit.CalculatriceTest.testAdditionner.executor": "Run",
+    "JUnit.JeuTest.executor": "Run",
+    "JUnit.UserServiceScenariosTest.executor": "Run",
     "JUnit.UserServiceTest.executor": "Run",
+    "JUnit.UserServiceTest.testCreerUtilisateur.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
@@ -66,7 +77,84 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.JeuAvecBanqueReelleTest">
+    <configuration name="CalculatriceTest.testAdditionner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TP02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="EXO01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="EXO01" />
+      <option name="MAIN_CLASS_NAME" value="EXO01.CalculatriceTest" />
+      <option name="METHOD_NAME" value="testAdditionner" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JeuAvecBanqueReelleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TP02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="EXO04.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="EXO04" />
+      <option name="MAIN_CLASS_NAME" value="EXO04.JeuAvecBanqueReelleTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JeuTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TP02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="EXO04.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="EXO04" />
+      <option name="MAIN_CLASS_NAME" value="EXO04.JeuTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceScenariosTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TP02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="EXO03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="EXO03" />
+      <option name="MAIN_CLASS_NAME" value="EXO03.UserServiceScenariosTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceTest.testCreerUtilisateur" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TP02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="EXO02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="EXO02" />
+      <option name="MAIN_CLASS_NAME" value="EXO02.UserServiceTest" />
+      <option name="METHOD_NAME" value="testCreerUtilisateur" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="TP02" />
       <method v="2">
@@ -80,6 +168,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.JeuAvecBanqueReelleTest" />
+        <item itemvalue="JUnit.JeuTest" />
+        <item itemvalue="JUnit.UserServiceScenariosTest" />
+        <item itemvalue="JUnit.UserServiceTest.testCreerUtilisateur" />
+        <item itemvalue="JUnit.CalculatriceTest.testAdditionner" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

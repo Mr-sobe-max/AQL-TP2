@@ -1,4 +1,4 @@
-package org.example.com.EXO03;
+package org.example.com.EXO3;
 
 public class Utilisateur {
     private String prenom;
@@ -12,12 +12,23 @@ public class Utilisateur {
         this.email = email;
     }
 
-    public String getPrenom() { return prenom; }
-    public String getNom() { return nom; }
-    public String getEmail() { return email; }
-    public int getId() { return id; }
+    public String getPrenom() {
+        return prenom;
+    }
+
+    public String getNom() {
+        return nom;
+    }
+
+    public String getEmail() {
+        return email;
+    }
 
     public void setId(int id) {
         this.id = id;
+    }
+
+    public int getId() {
+        return id;
     }
 }
