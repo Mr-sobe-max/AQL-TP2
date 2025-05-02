@@ -1,5 +1,6 @@
 package org.example.com.EXO01;
 
+/* EXO 01 */
 public class Calculatrice {
     private int result;
 

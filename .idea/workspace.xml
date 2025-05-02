@@ -5,32 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed3d8db0-1e67-4cba-9500-bd04168d3dd7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/com/EXO2/ServiceException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/com/EXO2/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/com/EXO2/Utilisateur.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/com/EXO2/UtilisateurApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/com/EXO4/Banque.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/com/EXO4/BanqueImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/com/EXO4/De.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/com/EXO4/DebitImpossibleException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/com/EXO4/Jeu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/com/EXO4/JeuFermeException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/com/EXO4/Joueur.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/EXO03/UserServiceScenariosTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/EXO04/JeuAvecBanqueReelleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/EXO04/JeuTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/com/EXO02/UserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/com/EXO02/Utilisateur.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/com/EXO02/UtilisateurApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/com/EXO3/UtilisateurApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/com/EXO03/ServiceException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/com/EXO3/ServiceException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/com/EXO03/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/com/EXO3/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/com/EXO03/Utilisateur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/com/EXO3/Utilisateur.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/com/EXO03/UtilisateurApi.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/EXO01/CalculatriceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/EXO01/CalculatriceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/EXO02/UserServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/EXO02/UserServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/EXO03/UserServiceTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +39,7 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "JUnit.CalculatriceTest.executor": "Run",
     "JUnit.CalculatriceTest.testAdditionner.executor": "Run",
+    "JUnit.JeuAvecBanqueReelleTest.executor": "Run",
     "JUnit.JeuTest.executor": "Run",
     "JUnit.UserServiceScenariosTest.executor": "Run",
     "JUnit.UserServiceTest.executor": "Run",
