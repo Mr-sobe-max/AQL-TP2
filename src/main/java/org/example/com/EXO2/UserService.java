@@ -1,5 +1,6 @@
 package org.example.com.EXO2;
 
+/* EXO 02 */
 public class UserService {
     private final UtilisateurApi utilisateurApi;
 
