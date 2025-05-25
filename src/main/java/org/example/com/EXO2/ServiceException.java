@@ -1,4 +1,4 @@
-package org.example.com.EXO03;
+package org.example.com.EXO2;
 
 public class ServiceException extends Exception {
     public ServiceException(String message) {

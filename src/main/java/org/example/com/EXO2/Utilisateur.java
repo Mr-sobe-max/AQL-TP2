@@ -1,4 +1,4 @@
-package org.example.com.EXO02;
+package org.example.com.EXO2;
 
 public class Utilisateur {
     private String prenom;
@@ -11,5 +11,15 @@ public class Utilisateur {
         this.email = email;
     }
 
-    // Getters et Setters (optionnels pour le test)
+    public String getPrenom() {
+        return prenom;
+    }
+
+    public String getNom() {
+        return nom;
+    }
+
+    public String getEmail() {
+        return email;
+    }
 }

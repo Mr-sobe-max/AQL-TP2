@@ -1,4 +1,4 @@
-package org.example.com.EXO03;
+package org.example.com.EXO3;
 
 public class UserService {
     private final UtilisateurApi utilisateurApi;
@@ -8,11 +8,6 @@ public class UserService {
     }
 
     public void creerUtilisateur(Utilisateur utilisateur) throws ServiceException {
-        if (utilisateur.getEmail() == null || utilisateur.getEmail().isEmpty()) {
-            return; // Validation simple
-        }
-
-        int id = utilisateurApi.creerUtilisateur(utilisateur);
-        utilisateur.setId(id);
+        utilisateurApi.creerUtilisateur(utilisateur);
     }
 }
