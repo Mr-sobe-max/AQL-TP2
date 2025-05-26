@@ -10,10 +10,6 @@ import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
 import static org.mockito.Mockito.*;
 
-<<<<<<< HEAD
-/* EXO 02 AVEC LES MOCKS */
-=======
->>>>>>> c863727d200c5b74a20c09ae4f205deca63a0bc5
 @ExtendWith(MockitoExtension.class)
 public class UserServiceTest {
     @Mock

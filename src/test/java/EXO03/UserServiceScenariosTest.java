@@ -13,10 +13,6 @@ import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.Mockito.*;
 
-<<<<<<< HEAD
-/* EXO 03 AVEC LES MOCKS */
-=======
->>>>>>> c863727d200c5b74a20c09ae4f205deca63a0bc5
 @ExtendWith(MockitoExtension.class)
 public class UserServiceScenariosTest {
     @Mock
